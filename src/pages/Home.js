@@ -4,9 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import{ImScissors} from "react-icons/im"
+import Services from "../components/Services";
+import NavigationBar from "../components/Navbar";
 function Home() {
   return (
-    <div>
+    <div className="homepage">
+        <NavigationBar/>
         <HomeCarousel/>
         <div className="bg-warning">
         <Container>
@@ -42,6 +45,7 @@ function Home() {
     </Row>
     </Container>
     </div>
+    <Services/>
     </div>
   );
 }

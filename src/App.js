@@ -1,13 +1,18 @@
 import './App.css';
-import NavigationBar from './components/Navbar';
 import Home from './pages/Home';
-
+import Rezervaris from './pages/Rezervari';
+import { BrowserRouter, Route,Routes} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <NavigationBar/>
-      <Home/>
+      <BrowserRouter>
+<Routes>
+  <Route element={<Home/>} path='/' />
+  <Route element={<Rezervaris/>} path='/rezervari'/>
+  <Route element={<Home/>} path='*'/>
+  </Routes>
+</BrowserRouter>
     </div>
   );
 }

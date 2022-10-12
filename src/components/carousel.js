@@ -1,12 +1,14 @@
 import Carousel from 'react-bootstrap/Carousel';
 import photo2 from '/Users/George/Documents/Projects/beard/src/image/photo2.jpg'
+import photo3 from '/Users/George/Documents/Projects/beard/src/image/photo3.jpg'
 function HomeCarousel() {
   return (
+ 
     <Carousel variant="dark">
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={photo2}
+          src={photo3}
           alt="First slide"
         />
         <Carousel.Caption >
@@ -39,6 +41,7 @@ function HomeCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+   
   );
 }
 
