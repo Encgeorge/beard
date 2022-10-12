@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(37, 36, 36);
 }
 
 .App-logo {
@@ -35,4 +36,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.carousel {
+  width:1000px;
+  /* height:500px; */
+  margin: auto;
+}
+
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  color:rgb(255, 255, 255);
+}
+
+.carousel-caption p{
+  color: rgb(255, 255, 255);
+}
+.Descriere p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Descriere{
+  float: center;
+    padding: 160px 25px  84px;
+    width: 87%;
+}
+
+.beard{
+  margin-top:20 ;
+}
+
+.scissors{
+  float: center;
+  padding: 260px 25px  24px;
+  width: 87%;
+}
+
+.scissors p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.titles{
+  padding: 35px;
+}
+
+.comb{
+  rotate: -50deg;
+}
+
+.comb-second{
+  rotate: 15deg;
 }
